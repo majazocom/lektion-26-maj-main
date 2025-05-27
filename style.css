@@ -1,0 +1,17 @@
+header {
+    color: hotpink;
+}
+
+article {
+    color: lime;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.extensions {
+    list-style-type: none;
+}
