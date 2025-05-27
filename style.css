@@ -1,17 +1,61 @@
-header {
-    color: hotpink;
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-article {
-    color: lime;
+body {
+    background-color: #A100004D;
 }
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    padding: 1rem 1rem 0rem;
+    color: #A10000;
+}
+
+h2 {
+    margin: 1rem 0 0.5rem;
+}
+
+header {
+    background-color: white;
+}
+
+header img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background-color: white;
+    padding: 1rem;
 }
 
-.extensions {
-    list-style-type: none;
+.intro-box {
+    background-color: #EBEBEB;
+    padding: 1rem;
+}
+
+.portion-info {
+    font-weight: 400;
+}
+
+.serving-examples {
+    display: flex;
+    gap: 1rem;
+    flex: 2;
+}
+.serving-examples img {
+    max-width: 50%;
+    flex: 1;
+    max-height: 300px;
+    object-fit: cover;
 }
