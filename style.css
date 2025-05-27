@@ -13,9 +13,8 @@ body {
     margin: 0 auto;
 }
 
-
 h1 {
-    padding: 1rem 1rem 0rem;
+    margin: 1rem 1rem 0rem;
     color: #A10000;
 }
 
@@ -37,6 +36,7 @@ header img {
 main {
     background-color: white;
     padding: 1rem;
+    margin-bottom: 3rem;
 }
 
 .intro-box {
@@ -50,12 +50,23 @@ main {
 
 .serving-examples {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     flex: 2;
 }
+
 .serving-examples img {
     max-width: 50%;
     flex: 1;
     max-height: 300px;
     object-fit: cover;
+}
+
+@media (max-width: 500px) {
+    main {
+        margin-bottom: 0;
+    }
+  .serving-examples img {
+    max-width: 100%;
+  }
 }
