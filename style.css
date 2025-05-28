@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #A100004D;
+    background-color: hotpink;
 }
 
 .wrapper {
@@ -15,59 +15,9 @@ body {
 
 h1 {
     margin: 1rem 1rem 0rem;
-    color: #A10000;
-}
-
-h2 {
-    margin: 1rem 0 0.5rem;
+    color: #eaaaaa;
 }
 
 header {
     background-color: white;
-}
-
-header img {
-    max-height: 300px;
-    width: 100%;
-    object-fit: cover;
-}
-
-
-main {
-    background-color: white;
-    padding: 1rem;
-    margin-bottom: 3rem;
-}
-
-.intro-box {
-    background-color: #EBEBEB;
-    padding: 1rem;
-}
-
-.portion-info {
-    font-weight: 400;
-}
-
-.serving-examples {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    flex: 2;
-}
-
-.serving-examples img {
-    max-width: 50%;
-    flex: 1;
-    max-height: 300px;
-    object-fit: cover;
-}
-
-@media (max-width: 500px) {
-    main {
-        margin-bottom: 0;
-    }
-
-    .serving-examples img {
-        max-width: 100%;
-    }
 }
